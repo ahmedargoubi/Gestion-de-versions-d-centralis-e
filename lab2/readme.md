@@ -23,6 +23,9 @@
    - Nommer le projet : `First_Project`.
    - Cocher **Public**.
    - Cliquer sur **Create Repository**.
+
+
+
 ![hostonly](cap/cap1.png)
 
 3. **À quoi sert `.gitignore` ?**
@@ -75,7 +78,11 @@
     git add LocalFile.txt
     git commit -m "Ajout du fichier LocalFile"
     ```
+
 ![hostonly](cap/cap2.png)
+
+
+
 11. **Vérifier le suivi du fichier et afficher le log**
     ```sh
     git status
@@ -89,11 +96,14 @@
       ```
       
     - Vérifier sur GitHub que `LocalFile.txt` est bien ajouté.
+
 ![hostonly](cap/cap3.png)
     - **Pourquoi n’était-il pas sur GitHub avant ?**
       - Car `git add` et `git commit` ne modifient que le dépôt local.
       - Il faut un `git push` pour envoyer les changements vers le dépôt distant.
+
 ![hostonly](cap/cap4.png)
+
 ---
 
 ## Conclusion
