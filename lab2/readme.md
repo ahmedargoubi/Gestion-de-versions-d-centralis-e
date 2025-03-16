@@ -26,7 +26,7 @@
 
 
 
-![hostonly](cap/cap1.png)
+![hostonly](cap/cap2.png)
 
 3. **À quoi sert `.gitignore` ?**
    - `.gitignore` est un fichier qui permet d'ignorer certains fichiers lors du suivi par Git (ex: fichiers temporaires, logs).
@@ -79,7 +79,7 @@
     git commit -m "Ajout du fichier LocalFile"
     ```
 
-![hostonly](cap/cap2.png)
+![hostonly](cap/cap1.png)
 
 
 
@@ -97,12 +97,12 @@
       
     - Vérifier sur GitHub que `LocalFile.txt` est bien ajouté.
 
-![hostonly](cap/cap3.png)
+![hostonly](cap/cap4.png)
     - **Pourquoi n’était-il pas sur GitHub avant ?**
       - Car `git add` et `git commit` ne modifient que le dépôt local.
       - Il faut un `git push` pour envoyer les changements vers le dépôt distant.
 
-![hostonly](cap/cap4.png)
+![hostonly](cap/cap3.png)
 
 ---
 
