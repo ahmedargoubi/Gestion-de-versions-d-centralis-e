@@ -8,8 +8,11 @@ Ce dépôt propose une série de **labs pratiques** pour apprendre et maîtriser
 
 ### 🔹 **Lab 1 : Git - Création d’un dépôt local**
 ✅ Initialisation d’un dépôt local avec `git init`
+
 ✅ Ajout et suivi de fichiers avec `git add`
+
 ✅ Création de commits avec `git commit`
+
 ✅ Vérification de l’historique avec `git log`
 
 ### 🔹 **TP 2 : GitHub - Création d’un dépôt distant avec Git et GitHub**
