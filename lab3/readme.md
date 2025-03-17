@@ -108,7 +108,7 @@
     ```
     *Le commit est annulé, mais les fichiers sont toujours en staging.*
 
-    ![hostonly](cap/cap6.png)
+    ![hostonly](cap/cap7.png)
 
 14. **Ajouter `file2.txt` et reformer un commit correct**
     ```sh
