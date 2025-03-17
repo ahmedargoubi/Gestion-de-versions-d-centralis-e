@@ -74,6 +74,7 @@
    ```
    *Le fichier `filereset.txt` disparaît.*
 
+![hostonly](cap/cap3.png)
 
 
 9. **Supprimer les trois derniers commits mais garder les fichiers**
@@ -89,7 +90,7 @@
     git reflog  # Trouver l'ID du commit précédent
     git reset --hard <ID_du_commit>
     ```
-    ![hostonly](cap/cap5.png)
+    ![hostonly](cap/cap6.png)
 ---
 
 ## D. Gestion avancée des commits
