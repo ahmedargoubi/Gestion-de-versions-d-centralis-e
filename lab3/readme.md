@@ -74,7 +74,7 @@
    ```
    *Le fichier `filereset.txt` disparaît.*
 
-![hostonly](cap/cap4.png)
+
 
 9. **Supprimer les trois derniers commits mais garder les fichiers**
    ```sh
@@ -82,7 +82,7 @@
    ```
    *Les fichiers sont encore présents mais non suivis par Git.*
 
-![hostonly](cap/cap4.png)
+![hostonly](cap/cap5.png)
 
 10. **Récupérer l’état précédent grâce à `git reflog`**
     ```sh
