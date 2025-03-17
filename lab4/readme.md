@@ -37,7 +37,9 @@
    git branch
    ```
    - `Branche1` doit être marquée avec `*`.
- ![hostonly](cap/cap2.png)
+
+
+    ![hostonly](cap/cap2.png)
 ---
 
 ## B. Ajout et Validation de Fichiers sur une Branche
@@ -91,13 +93,9 @@
 
 11. **Comparer les deux derniers commits**
     ```sh
-    git diff ID_commit1 ID_commit2
+    git diff d456af9  cffc3c2
     ```
 
-12. **Afficher uniquement les fichiers modifiés entre deux commits**
-    ```sh
-    git diff ID_commit1 ID_commit2 --name-only
-    ```
 
     ![hostonly](cap/cap4.png)
 ---
@@ -116,7 +114,7 @@
 
 15. **Renommer une branche**
     ```sh
-    git branch -m AncienNom NouveauNom
+     git branch -m NouvelleBranche Branche2
     ```
 
  ![hostonly](cap/cap5.png)
