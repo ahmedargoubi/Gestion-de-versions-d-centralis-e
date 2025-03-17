@@ -1,4 +1,4 @@
-# TP3 : Git - Annulation et Rollback
+#   LAB3 : Git - Annulation et Rollback
 
 ## Objectifs :
 - Comprendre comment annuler des modifications avec `git reset` et `git revert`.
