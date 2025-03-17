@@ -88,7 +88,7 @@
 10. **Récupérer l’état précédent grâce à `git reflog`**
     ```sh
     git reflog  # Trouver l'ID du commit précédent
-    git reset --hard <ID_du_commit>
+    git reset --hard a6e7078
     ```
     ![hostonly](cap/cap6.png)
 ---
