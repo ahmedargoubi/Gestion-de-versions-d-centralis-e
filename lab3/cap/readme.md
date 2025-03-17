@@ -29,7 +29,7 @@
    touch test.docx
    git status  # Vérifier que test.docx n'est pas suivi par Git
    ```
-
+   ![hostonly](cap/cap1.png)
 ---
 
 ## B. Gestion des Commits et Annulations
@@ -61,9 +61,9 @@
 
 7. **Analyser l'historique des commits**
    ```sh
-   git log --oneline --graph --all
+   git log --oneline 
    ```
-
+   ![hostonly](cap/cap2.png)
 ---
 
 ## C. Annulation avec `git reset`
@@ -74,18 +74,22 @@
    ```
    *Le fichier `filereset.txt` disparaît.*
 
+![hostonly](cap/cap3.png)
+
 9. **Supprimer les trois derniers commits mais garder les fichiers**
    ```sh
    git reset HEAD~3
    ```
    *Les fichiers sont encore présents mais non suivis par Git.*
 
+![hostonly](cap/cap4.png)
+
 10. **Récupérer l’état précédent grâce à `git reflog`**
     ```sh
     git reflog  # Trouver l'ID du commit précédent
     git reset --hard <ID_du_commit>
     ```
-
+    ![hostonly](cap/cap5.png)
 ---
 
 ## D. Gestion avancée des commits
@@ -103,7 +107,9 @@
     ```
     *Le commit est annulé, mais les fichiers sont toujours en staging.*
 
-13. **Ajouter `file2.txt` et reformer un commit correct**
+    ![hostonly](cap/cap6.png)
+
+14. **Ajouter `file2.txt` et reformer un commit correct**
     ```sh
     git add file2.txt file3.txt
     git commit -m "Mise à jour conjointe de file2.txt et file3.txt"
@@ -126,6 +132,8 @@
     ```
     *Cela ouvre un éditeur de texte (Vim ou Nano) pour confirmer le commit de revert.*
     *Si l'éditeur s'ouvre, tape `:wq` sous Vim pour enregistrer et quitter.*
+
+![hostonly](cap/cap8.png)
 
 ---
 
