@@ -43,7 +43,7 @@
    - **Que se passe-t-il ?**
      - Un **conflit de merge** est détecté sur `data_base.db` car les deux branches ont des modifications différentes sur le même fichier.
 
- ![hostonly](cap/cap1.png)
+ ![hostonly](cap/cap2.png)
 
 
 5. **Résoudre le conflit de merge**
@@ -81,7 +81,7 @@
 
      ```
 
-      ![hostonly](cap/cap2.png)
+      ![hostonly](cap/cap1.png)
 
 
 ---
